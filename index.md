@@ -3,7 +3,7 @@ layout: default
 title: 构建数学信任的p2p信息社会
 ---
 
-![Image](./docs/img/sagittarius1.png)
+![Image](./docs/img/sagittarius.png)
 
 # The p2p world!
 
@@ -80,11 +80,11 @@ title: 构建数学信任的p2p信息社会
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat1.png)
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching1.png)
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 ### Definition lists can be used with HTML syntax.
 
