@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MyWorld
+title: 构建数学信任的p2p信息社会
 ---
 
 ![Image](./docs/img/sagittarius.png)
