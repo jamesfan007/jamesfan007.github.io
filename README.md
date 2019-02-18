@@ -1,109 +1,129 @@
-# The Midnight theme
+---
+layout: default
+---
 
-[![Build Status](https://travis-ci.org/pages-themes/midnight.svg?branch=master)](https://travis-ci.org/pages-themes/midnight) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-midnight.svg)](https://badge.fury.io/rb/jekyll-theme-midnight)
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-*Midnight is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/midnight), or even [use it today](#usage).*
+[readme](./docs/read.html).
+[myworld](./docs/myworld.html).
 
-![Thumbnail of Midnight](thumbnail.png)
 
-## Usage
+[Link to another page](./another-page.html).
+[back](./)
+![Image](http://inews.gtimg.com/newsapp_bt/0/7752772082/1000)
 
-To use the Midnight theme:
+There should be whitespace between paragraphs.
 
-1. Add the following to your site's `_config.yml`:
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-    ```yml
-    theme: jekyll-theme-midnight
-    ```
+# Header 1
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+## Header 2
 
-## Customizing
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-### Configuration variables
+### Header 3
 
-Midnight will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
 ```
 
-Additionally, you may choose to set the following optional variables:
-
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
 ```
 
-### Stylesheet
+#### Header 4
 
-If you'd like to add your own custom styles:
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+##### Header 5
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+###### Header 6
 
-### Layouts
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
-If you'd like to change the theme's HTML layout:
+### There's a horizontal rule below this.
 
-1. [Copy the original template](https://github.com/pages-themes/midnight/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+* * *
 
-### Overriding GitHub-generated URLs
+### Here is an unordered list:
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
 
-1. Look at [the template source](https://github.com/pages-themes/midnight/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+### And an ordered list:
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+### And a nested list:
 
-## Roadmap
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
 
-See the [open issues](https://github.com/pages-themes/midnight/issues) for a list of proposed features (and known issues).
+### Small image
 
-## Project philosophy
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
-The Midnight theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+### Large image
 
-## Contributing
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-Interested in contributing to Midnight? We'd love your help. Midnight is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
-### Previewing the theme locally
+### Definition lists can be used with HTML syntax.
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/midnight`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
 
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+```
+The final element.
+```
