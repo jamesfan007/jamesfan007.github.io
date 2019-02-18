@@ -80,11 +80,11 @@ title: 构建数学信任的p2p信息社会
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat1.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://guides.github.com/activities/hello-world/branching1.png)
 
 ### Definition lists can be used with HTML syntax.
 
