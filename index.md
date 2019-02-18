@@ -3,7 +3,7 @@ layout: default
 title: 构建数学信任的p2p信息社会
 ---
 
-![Image](./docs/img/sagittarius.png)
+![Image](./docs/img/sagittarius1.png)
 
 # The p2p world!
 
