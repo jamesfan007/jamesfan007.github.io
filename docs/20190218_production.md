@@ -1,19 +1,23 @@
 ---
 layout: default
-title: 个人peer终端的产品形态
+title: 个人终端peer的产品形态
 ---
 
-Welcome to [MyWorld](http://jamesfan007.github.io/)! This is my first post.  If you get any problems when reading MyWorld, you can ask me on [Github](https://github.com/jamesfan007/jamesfan007.github.io), or Contact me via wechat:[CleverDogMaster].
+## 个人终端peer的产品形态
 
-## 个人peer终端的产品形态
+#### 符合个人终端peer产品定义的设备，大家想当然觉得就是手机。手机大家随身携带，具备通讯计算存储能力，还有指纹和摄像头可以验证身份。可惜，手机对外的网络服务是间歇工作的，无法让别人通过网络随时访问自己的手机。如果一直工作，电池很快就消耗了。手机因为随身携带，容易丢失，无法用于重要信息存储。手机不是最佳的p2p个人peer终端产品。
 
-> 满足p2p个人peer终端产品，大家想当然觉得就是手机。
-> 手机大家随身携带，具备通讯计算存储能力，还有指纹和摄像头可以验证身份。
-> 可惜，手机对外的网络服务是间歇工作的，无法让别人通过网络随时访问自己的手机。
-> 如果一直工作，电池很快就消耗了。手机不能成为p2p个人peer终端产品。
-> 
-> 电脑，本来可以作为peer终端产品的，但功能多，系统软件复杂，存在很大的不安全因素。
-> 电视，机顶盒，路由器，都无法满足条件，成为p2p个人peer终端产品。
+#### 个人电脑，天然地就可以作为peer终端产品的，但个人电脑功能多，系统软件复杂，存在很大的不安全因素。个人电脑功耗大，硬件可靠性相对较差，一般人不会24小时不间断开机。个人电脑也不是最佳的peer终端。
+
+#### 电视，机顶盒，路由器，都由于网络或存储等原因，可能无法满足全部条件，也不是合适的个人peer终端产品。
+
+#### 那可不可以租用云存储和云计算作为peer终端，这个似乎可行。但管理权掌握在服务商手上，不是个人真正拥有。
+
+#### 家用的网络磁盘服务器(Network Attached Storage,NAS)是一个理想的peer终端的选择，各方面都符合条件。只是，愿意买NAS放家里的人少之又少，一般为了存个人照片和不可描述的电影等而购买，而一般照片又可以云存储，谁愿意为了这个"p2p理想"而特地购买呢？
+
+### 目前看来网络监控摄像头是最合适作为个人终端peer的一个电子产品形态。
+
+#### 很多商户和家庭都有安装网络监控摄像头，市场销售逐年增长。成本低、功耗低、带存储、24小时在线，是个绝佳的个人终端peer。
 
 | 功能   | 手机   | 电脑  | 电视  | 机顶盒 | 路由器 | 摄像头 |
 |:---- |:---- |:--- |:--- |:--- |:--- |:--- |
@@ -27,22 +31,20 @@ Welcome to [MyWorld](http://jamesfan007.github.io/)! This is my first post.  If 
 | 使用数量 | 人手一部 | 多   | 少   | 少   | 中   | 多   |
 
 ```
-$ 人人平等，世界和平
+人人平等，世界和平
 ```
 
-[More info](http://jamesfan007.github.io/)
-[更多文章](http://jamesfan007.github.io/)
+[回到主页](http://jamesfan007.github.io/)
 
-## 原创声明：
+#### 原创声明：
 
-## 所有文章均为JamesVan呕心沥血所作。如果引用，必标明出处；若为转贴，定附上链接。
+##### 所有文章均为JamesVan呕心沥血所作。如果引用，必标明出处；若为转贴，定附上链接。
 
 ---
 
 - **转载请注明作者和出处：http://jamesfan007.github.io/**
 - **代码地址：https://github.com/jamesfan007/jamesfan007.github.io**
-- **文章地址：https://github.com/jamesfan007/jamesfan007.github.io**
 - **作&emsp;&emsp;者：James Van**
 - **联系方式：mail:[jamesfan007@hotmail.com] wechat:[CleverDogMaster]**
 
----
+  ---
