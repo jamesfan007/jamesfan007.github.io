@@ -4,11 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[readme](./docs/read.html).
 [myworld](./docs/20190218_myworld.html).
-
-
-[Link to another page](./another-page.html).
 [back](./)
 ![Image](./docs/img/sagittarius.png)
 
