@@ -10,7 +10,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 [back](./)
-![Image](http://inews.gtimg.com/newsapp_bt/0/7752772082/1000)
+![Image](./docs/img/sagittarius.png)
 
 There should be whitespace between paragraphs.
 
