@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[myworld](./docs/20190218_myworld.html).
+[myworld](./docs/20190218_about.html).
 [back](./)
 ![Image](./docs/img/sagittarius.png)
 
