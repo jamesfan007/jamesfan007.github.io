@@ -42,7 +42,7 @@ title: 构建数学信任的p2p信息社会
 
 ### Peer的产品形态
 **Smart Phone is not Peer！** 符合个人peer产品定义的设备，大家想当然觉得就是手机。但手机的网络连接是间歇工作的，无法让别人通过网络随时访问自己的手机。电脑、电视、机顶盒、路由器、网络磁盘NAS，都由于各种原因，不是最佳的个人peer终端产品。  
-**目前看来摄像头IPC(+硬盘录像机NVR/NAS)是最合适作为个人peer设备的一个电子产品载体形态。**... [展开](./docs/20190218_production.html).
+**现阶段摄像头IPC(+硬盘录像机NVR/NAS)是最合适作为个人peer设备的一个电子产品载体形态。**... [展开](./docs/20190218_production.html).
 
 ### Peer的网络架构
 ![peer](./docs/img/peer.jpg)  
