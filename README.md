@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [myworld](./docs/20190218_about.html).
 [back](./)
-![Image](./docs/img/sagittarius.png)
+![Image](./docs/img/sagittarius.jpg)
 
 There should be whitespace between paragraphs.
 
